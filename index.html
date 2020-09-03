@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Markdown to HTML and CSS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>BeCode - Septembre 2020</h2>
+    <h3>Exercice "Markdown to HTML and CSS"</h3>
+    <p>Objéctifs :</p>
+    <ul>
+        <li>Explorer le langage HTML</li>
+        <li>Comprendre le lien entre markdown et html</li>
+    </ul>
+    <p>Instructions :</p>
+    <ul>
+        <li>Crée toi un projet <strong>GitHub</strong> <i>"Learning Environment</i></li>
+        <li>Crée un fichier <span>index.html</span></li>
+        <li>Convertis le dernier markdown réalisé précédemment dans le fichier <span>index.html</span></li>
+    </ul>
+
+    <hr>
+
+    <h1 class="md">Markdown</h1>
+    <p>
+        <i>Markdown</i> est un langage de balisage créé en 2004 par <strong>John Gruber</strong> avec l'aide d' <strong>Aaron Swartz</strong>. Son but est d'offrir une <i>syntaxe facile à lire et à écrire</i>
+    </p>
+    <p>Un document balisé par Markdown peut être lu en l'état sans donner l’impression d'avoir été balisé ou formaté par des instructions particulières.</p>
+    <small>Référence : <a href="https://fr.wikipedia.org/wiki/Markdown" target="blank">Wikipedia</a></small>
+
+    <hr>
+    <br>
+    <p>Plusieurs possibilités de formatage sont présentes dans le markdown.</p>
+    <p>Un exemple est l'image que vous voyez ci-dessus, ainsi que des liens (comme le lien vers Wikipedia ci-dessus).</p>
+    <p>Autre chose interessante : les tableaux.</p>
+    <p>Voici un tableau reprenant les sujets que je vais étudier lors des prochaines semaines :</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Matière</th>
+                <th>Sujet</th>
+                <th>Progession</th>
+                <th>Date limite</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>SASS</td>
+                <td>Tout le contenu</td>
+                <td>Entamé</td>
+                <td>11/09/2020</td>
+            </tr>
+            <tr>
+                <td>GIT</td>
+                <td>Merge et conflits</td>
+                <td>À commencer</td>
+                <td>10/09/2020</td>
+            </tr>
+            <tr>
+                <td>JavaScript</td>
+                <td>Tout le contenu</td>
+                <td>À commencer</td>
+                <td>30/10/2020</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p>Ou encore, inserer un bloque de code :</p>
+        <pre>
+            <code>
+                function print (var) {
+                    console.log(var)
+                }
+            </code>
+        </pre>
+    
+    <h3>Considérations</h3>
+    <p>En effet, le markdown me paraît une pratique facile. Il n'y a pas beaucoup de syntaxe à apprendre.</p>
+
+    <p>Mon objéctif maintenant est de traduire ce markdown vers une page html et la stylé avec CSS pour qu'il soit encore plus agréable à lire.</p>
+    </div>
+</body>
+</html>
